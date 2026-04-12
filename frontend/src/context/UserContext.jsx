@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { authDataContext } from './AuthContext'
 import axios from 'axios'
-import { userDataContext } from "./userContext"; 
+import { userDataContext } from "./userContext.js"; 
 
 function UserContext({ children }) {
   const [userData, setUserData] = useState("")
