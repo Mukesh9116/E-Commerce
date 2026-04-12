@@ -12,7 +12,6 @@ import { signInWithPopup } from 'firebase/auth';
 import { auth, provider } from '../../utils/Firebase';
 import Loading from '../component/Loading';
 import { userDataContext } from '../context/userContext';
-
 function Login() {
     let [show,setShow] = useState(false)
         let [email,setEmail] = useState("")
