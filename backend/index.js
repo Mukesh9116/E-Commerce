@@ -17,7 +17,7 @@ let app = express()
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
- origin:["https://e-commerce-frontend-1cmf.onrender.com" , "http://localhost:5174"],
+ origin:["https://e-commerce-frontend-1cmf.onrender.com" , "https://e-commerce-admin-ul4o.onrender.com"],
  credentials:true
 }))
 
