@@ -10,8 +10,8 @@ import { authDataContext } from '../context/authContext';
 import axios from 'axios';
 import { signInWithPopup } from 'firebase/auth';
 import { auth, provider } from '../../utils/Firebase';
-import { userDataContext } from '../context/UserContext';
 import Loading from '../component/Loading';
+import { userDataContext } from '../context/userContext';
 
 function Login() {
     let [show,setShow] = useState(false)
@@ -32,7 +32,7 @@ function Login() {
             },{withCredentials:true})
             console.log(result.data)
             setLoading(false)
-            getCurrentUser()
+            await getCurrentUser()
             navigate("/")
             toast.success("User Login Successful")
             

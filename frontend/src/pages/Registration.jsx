@@ -10,9 +10,9 @@ import { authDataContext } from '../context/authContext';
 import axios from 'axios'
 import { signInWithPopup } from 'firebase/auth';
 import { auth, provider } from '../../utils/Firebase';
-import { userDataContext } from '../context/UserContext';
 import { toast } from 'react-toastify';
 import Loading from '../component/Loading';
+import { userDataContext } from '../context/userContext';
 
 function Registration() {
     let [show,setShow] = useState(false)

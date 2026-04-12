@@ -1,7 +1,9 @@
 import { v2 as cloudinary } from 'cloudinary';
 import fs from 'fs'
+import dotenv from "dotenv"
+dotenv.config()
 
-
+console.log(process.env.CLOUDINARY_NAME);
 const uploadOnCloudinary = async (filePath) => {
     cloudinary.config({ 
         cloud_name: process.env.CLOUDINARY_NAME, 
