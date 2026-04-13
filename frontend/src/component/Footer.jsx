@@ -11,7 +11,7 @@ function Footer() {
             
                 </div>
                 <p className='text-[15px] text-[#1e2223] hidden md:block'> Novamart is your all-in-one online shopping destination, offering top-quality products, unbeatable deals, and fast delivery—all backed by trusted service designed to make your life easier every day.</p>
-                    <p className='text-[15px] text-[#1e2223] flex md:hidden'>Fast. Easy. Reliable. OneCart Shopping</p>
+                    <p className='text-[15px] text-[#1e2223] flex md:hidden'>Fast. Easy. Reliable. NovaMart Shopping</p>
 
                 
             </div>
